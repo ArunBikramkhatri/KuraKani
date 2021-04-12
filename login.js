@@ -1,13 +1,16 @@
+var name;
+var pass;
 
+changeHandler = () => {name =document.getElementById("name").value:
+pass = document.getElementById("password").value; }
 
 
 
 
 function checkname(event)
 {
-	var username = document.getElementById("name").value;
-	var pass = document.getElementById("password").value;
-	if(username ==="Arun")
+
+	if(name ==="Arun")
 	{
 		if(pass === "7270")
 		{

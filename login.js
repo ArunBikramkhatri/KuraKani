@@ -1,8 +1,8 @@
 var name;
 var pass;
 
-changeHandler = () => {name =document.getElementById("name").value:
-pass = document.getElementById("password").value; }
+const namechangeHandler = () => {name =document.getElementById("name").value:}
+const passchangeHandler = ()=> {pass = document.getElementById("password").value; }
 
 
 

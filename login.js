@@ -1,5 +1,8 @@
 
 
+
+
+
 function checkname(event)
 {
 	var username = document.getElementById("name").value;
@@ -8,7 +11,7 @@ function checkname(event)
 	{
 		if(pass === "7270")
 		{
-			window.location.href="register.html";
+			alert(10);
 		}
 		else{
 			alert("wrong password");

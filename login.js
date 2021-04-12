@@ -14,7 +14,7 @@ function checkname(event)
 	{
 		if(pass === "7270")
 		{
-			alert(10);
+			prompt(10);
 		}
 		else{
 			alert("wrong password");

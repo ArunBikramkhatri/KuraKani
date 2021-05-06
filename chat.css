@@ -1,0 +1,41 @@
+body{
+	overflow: visible;
+}
+
+.info-box{
+	display: flex;
+	flex-direction: column;
+	background-color: #0083ff;
+	
+	padding: 10px;
+	width: 25%;
+	overflow: scroll;
+}
+
+img{
+
+	height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+
+h4{
+	position: relative;
+    margin-left: 42%;
+    margin-top: -89px;
+    padding: 33px;
+}
+
+p{
+
+}
+
+.user-info{
+	width: 170px;
+    height: 84px;
+}
+
+.chatbox{
+	position: relative;
+	left: 50%;
+}
